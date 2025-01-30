@@ -5,9 +5,9 @@ This project focuses on fine-tuning Qwen-2.5, a powerful LLM, using Unsloth for 
 Example
 Here’s a quick demonstration of how a simple text query is converted into a structured JSON format:
 
-Input
-"Apple unveils new iPhone model"
- Output
+
+**Output**  
+```json
 {
   "type": "news_headline",
   "operationCode": "&&",
