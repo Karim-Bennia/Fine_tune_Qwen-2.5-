@@ -2,11 +2,12 @@
 Project Overview
 This project focuses on fine-tuning Qwen-2.5, a powerful LLM, using Unsloth for optimized and efficient training. The goal is to transform natural language queries into structured JSON-based outputs.
 
-Example:
+Example
+Here’s a quick demonstration of how a simple text query is converted into a structured JSON format:
 
-Input: "Apple unveils new iPhone model"
-
-Output:
+Input
+"Apple unveils new iPhone model"
+ Output
 {
   "type": "news_headline",
   "operationCode": "&&",
